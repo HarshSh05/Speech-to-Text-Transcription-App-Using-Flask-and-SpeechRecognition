@@ -108,14 +108,4 @@ The project relies on the following Python libraries:
 - 📈 Implement a dashboard for viewing transcription statistics.
 - 🔍 Enhance error handling for robust performance.
 
----
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
----
-
-## Contribution
-Contributions are welcome! Feel free to fork this repository, submit pull requests, or open issues for suggestions.
-
----
