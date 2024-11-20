@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speech-to-Text Transcription with Translation</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
+</head>
+<body>
+    <div class="container">  
+        <h1>Speech Transcription & Translation</h1>
+
+        <button id="recordBtn">Start Recording</button>
+        <button id="stopBtn" disabled>Stop Recording</button>
+
+        <input type="file" id="audioUpload" accept="audio/*"> 
+        <button id="uploadBtn">Upload Audio</button> 
+
+        <div id="status"></div>  
+        <div id="process-status"></div>  
+        <div id="result"></div> 
+        <div id="translation"></div> 
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>console.log("HTML fully loaded");</script>
+    <script src="{{ url_for('static', filename='script.js') }}?v=2"></script>
+
+</body>
+</html>
